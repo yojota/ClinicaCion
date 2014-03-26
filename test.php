@@ -3,24 +3,19 @@
 	<title>Prueba</title>
 </head>
 <body>
+	<input type="text" name="ciudad" value="San Salvador" size=20 maxlength=20>
+	<br> <input type="radio" name="musica" value="1" checked> Flamenco
+	<br> <input type="radio" name="musica" value="2"> Rock
+	<br> <input type="radio" name="musica" value="3"> Musica
+	<br><input type="submit" value="Procesar">
+	<br><TEXTAREA NAME="diagnostico" COLS="40" ROWS="4">Diagnostico
+    </TEXTAREA>
+	<br><SELECT NAME=”provincia”>
+		<OPTION VALUE=”1” CHECKED>Jujuy
+		<OPTION VALUE=”2”>Salta
+	</SELECT>
+
 <?php
-	define(TAM,4);
-	function potencia ($v1, $v2)
-	{
-		$rdo= pow($v1, $v2);
-		return $rdo;
-	}
-	echo "<table border=1>";
-	for ($n1=1; $n1<=TAM; $n1++)
-	{
-		echo "<tr>";
-		for ($n2=1; $n2<=TAM; $n2++)
-		{
-			echo "<td>". potencia($n1,$n2). "</td>";
-		}
-		echo "</tr>";
-	}
-	echo "</table>";
 ?>
 </body>
 </html>
