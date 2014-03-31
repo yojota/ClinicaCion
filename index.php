@@ -71,3 +71,4 @@ if ($view->disableLayout==true)
 {include_once ($view->contentTemplate);}
 else
 {include_once ('templates/layout.php');} // el layout incluye el template adentro
+?>
