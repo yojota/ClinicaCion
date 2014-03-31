@@ -9,7 +9,7 @@
 
 	$con = mysql_connect($host,$user,$password);
 	if (!$con) {
-    	echo "No pudo conectarse a la BD: " . mysql_error();
+    	echo "No pudo conectarse al Motor de BD: " . mysql_error();
     	exit;
 	}
 
