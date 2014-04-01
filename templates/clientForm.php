@@ -1,4 +1,5 @@
 ﻿<h2><?php echo $view->label ?></h2>
+
 <form name ="client" id="client" method="POST" action="index.php">
     <input type="hidden" name="id" id="id" value="<?php print $view->client->getId() ?>">
     <div>

@@ -42,8 +42,6 @@ $(document).ready(function(){ //cuando el html fue cargado iniciar
             $('#popupbox').show();
         })
     })
-
-
     $('#client').live('submit',function(){
         var params={};
         params.action='saveClient';
